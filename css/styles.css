@@ -28,6 +28,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+.header-logo2 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -155,6 +163,14 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+.footer-logo2 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-btn-color);
 }
 .footer-address {
   font-size: 14px;
