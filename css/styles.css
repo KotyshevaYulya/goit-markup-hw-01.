@@ -63,6 +63,9 @@ body {
 }
 /*-----------------HEADER-----------------*/
 /*--------------HERO----------------------*/
+.title {
+  display: none;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
