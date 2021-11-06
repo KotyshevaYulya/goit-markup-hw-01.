@@ -6,6 +6,7 @@
   --accent-color: #2196f3;
   --main-btn-color: #ffffff;
   --header-text-color: #212121;
+  --second-btn-color: #212121;
 }
 
 body {
@@ -20,16 +21,16 @@ body {
 /*-----------------HEADER-----------------*/
 .header-logo {
   font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.33;
-  /* identical to box height */
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.33;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
@@ -41,7 +42,7 @@ body {
 .header-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.33;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -52,7 +53,7 @@ body {
 .header-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.33;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -65,7 +66,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.33;
+  line-height: 1.36;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
@@ -77,7 +78,7 @@ body {
 }
 .hero-button {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   display: flex;
   align-items: center;
@@ -92,21 +93,21 @@ body {
 /*--------------ABOUT---------------------*/
 .about-title {
   font-size: 14px;
-  line-height: 1.33;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color);
 }
 .about-text {
   font-size: 14px;
-  line-height: 1.33;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .about-title2 {
   font-size: 36px;
-  line-height: 1.33;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
@@ -115,7 +116,7 @@ body {
 /*------------------MAIN-------------------*/
 .main-title {
   font-size: 36px;
-  line-height: 1.33;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
@@ -123,7 +124,7 @@ body {
 .main-subtitle {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.18;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -131,7 +132,7 @@ body {
 }
 .main-text {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.18;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -144,33 +145,70 @@ body {
 }
 .footer-logo {
   font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.33;
-  /* identical to box height */
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .footer-address {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-color);
+}
+
 .footer-mail {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
 }
 .footer-tel {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
 /*--------------------FOOTER----------------------*/
+
+/*---------------PORTOFOLIO--------------*/
+.main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-btn-color);
+}
+.hero-subtitle {
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--header-text-color);
+}
+.hero-text {
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
