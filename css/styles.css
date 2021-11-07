@@ -72,9 +72,6 @@ body {
 }
 /*-----------------HEADER-----------------*/
 /*--------------HERO----------------------*/
-.pointer {
-  cursor: pointer;
-}
 
 .title {
   display: none;
@@ -83,7 +80,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -93,17 +89,24 @@ body {
   background-color: #2f303a;
 }
 .hero-button {
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-btn-color);
 }
+.hero-button {
+  background-color: var(--accent-color);
+}
 /*.hero-button:hover .hero-button:focus {
 }*/
+
+.pointer {
+  cursor: pointer;
+}
 
 /*--------------HERO----------------------*/
 /*--------------ABOUT---------------------*/
@@ -215,6 +218,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-btn-color);
 }
+
 .hero-subtitle {
   font-size: 18px;
   line-height: 2;
