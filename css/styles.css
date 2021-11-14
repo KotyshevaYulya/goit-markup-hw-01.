@@ -7,6 +7,12 @@
   --main-btn-color: #ffffff;
   --header-text-color: #212121;
   --second-btn-color: #212121;
+  --card-shadow: box-shadow: 0px 2px 1px 0px #00000033;
+
+box-shadow: 0px 1px 1px 0px #00000024;
+
+box-shadow: 0px 1px 3px 0px #0000001F;
+
 }
 
 body {
@@ -14,7 +20,8 @@ body {
 }
 .list,
 .list-adress,
-.list-btn {
+.list-btn,
+.list-portfolio {
   list-style: none;
 }
 .link {
@@ -286,7 +293,8 @@ body {
 /*--------------------FOOTER----------------------*/
 
 /*---------------PORTOFOLIO--------------*/
-.list-btn li{
+/* .list-btn */
+.items-btn li{
   margin-right: 8px;
 }
 /* .list-btn {
@@ -349,13 +357,15 @@ margin-right: auto;} */
   border: none;
   /* outline: none; */
 }
-.header {
+.container-header {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
 
-   padding-top: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 24px;
   padding-bottom: 25px;
 }
 /* .container-main-portfolio {
@@ -370,18 +380,31 @@ padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .container-about-img {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.container-main,
+.container-main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .container-main-portfolio {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  /* margin-top: 0px;
+  margin-bottom: 0px; */
   outline: 2px solid tomato;
 }
 .container-footer {
@@ -390,6 +413,8 @@ padding-top: 94px;
   margin-right: auto;
   outline: 2px solid tomato;
 
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -399,7 +424,7 @@ padding-top: 94px;
 .contact,
 .about-title2,
 .main-title,
-.list,
+.list, .list-portfolio,
 h2,
 p {
   margin-top: 0px;
@@ -437,4 +462,50 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
+}
+
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-element {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  /* outline: 1px solid #EEEEEE; */
+}
+.flex-element:nth-child(3n) {
+  margin-right: 0px;
+}
+.flex-element:nth-last-child(-n +3) {
+  margin-bottom: 0px;
+}
+.portfolio-text {
+  padding: 20px 24px;
+  /* outline: 1px solid #EEEEEE; */
+}
+.items-btn {
+  min-width: 611px;
+  display: flex;
+  padding-top: 94px;
+  margin-bottom: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list-btn {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* .container-main li {
+  outline: var(--second-title-color);
+} */
+
+.container-main-portfolio {
+  padding-top: 0px;
 }
