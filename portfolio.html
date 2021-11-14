@@ -9,11 +9,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+                integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/styles.css">
  </head>
  <body>
      <!-- -------------------HEADER---------------------- -->
-    <header class="header">
+<header class="header">
+    <div class="container-header">
         <nav class="header-navigation">
             <a class="link" href="./index.html"><span class="header-logo">Web</span><span
                     class="header-logo2">Studio</span></a>
@@ -22,18 +26,20 @@
                 <li><a class="link header-link headr-item" href="./portfolio.html">Портфолио</a></li>
                 <li><a class="link header-link headr-item" href="">Контакты</a></li>
             </ul>
+            <ul class="list contact">
+                <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="header-tel link" href="tel.:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
         </nav>
-        <ul class="list contact">
-            <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="header-tel link" href="tel.:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
+    </div>
+</header>
     <!-- -------------------HEADER---------------------- -->
     <!-- -------------------MAIN---------------------- -->
     <main>
+        <div class="container-main-portfolio">
       <section>
-            <h1 class="title">Наши работы</h1>
-        <ul class="list">
+            <h1 class="title-portfolio">Наши работы</h1>
+        <ul class="list-btn">
             <li><button class="main-btn pointer" type="button">Все</button></li>
             <li><button class="main-btn pointer" type="button">Веб-сайты</button></li>
             <li><button class="main-btn pointer" type="button">Приложения</button></li>
@@ -41,7 +47,7 @@
             <li><button class="main-btn pointer" type="button">Маркетинг</button></li>
        </ul>
        
-        <ul class="list">
+            <ul class="list list-portfolio">
             <li>
                 <img src="images/web-site.jpg" alt="Ноутбук с открытым веб-сайтом" width="370">
                     <h2 class="hero-subtitle">Технокряк</h2>
@@ -89,19 +95,22 @@
             </li>
         </ul>
         </section>
+    </div>
     </main>
     <!-- -------------------MAIN---------------------- -->
     <!-- -------------------FOOTER---------------------- -->
 <footer class="footer">
-    <a class="link" href=""><span class="footer-logo">Web</span><span class="footer-logo2">Studio</span></a>
-    <address>
-        <ul class="list">
-            <li><a class="footer-address link" href="https://goo.gl/maps/cXe5NP5aKkesT4md6" target="_blank">г. Киев,
-                    пр-т Леси Украинки, 26</a></li>
-            <li><a class="footer-mail link" href="mailto:info@devstudio.com">info @devstudio.com</a></li>
-            <li><a class="footer-tel link" href="tel.:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </address>
+    <div class="container-footer">
+        <a class="link" href=""><span class="footer-logo">Web</span><span class="footer-logo2">Studio</span></a>
+        <address>
+            <ul class="list-adress">
+                <li><a class="footer-address link" href="https://goo.gl/maps/cXe5NP5aKkesT4md6" target="_blank">г. Киев,
+                        пр-т Леси Украинки, 26</a></li>
+                <li><a class="footer-mail link" href="mailto:info@devstudio.com">info @devstudio.com</a></li>
+                <li><a class="footer-tel link" href="tel.:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
+    </div>
 </footer>
 <!-- -------------------FOOTER---------------------- -->
  </body>

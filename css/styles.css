@@ -12,7 +12,9 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-.list {
+.list,
+.list-adress,
+.list-btn {
   list-style: none;
 }
 .link {
@@ -70,21 +72,71 @@ body {
 .header-tel:focus {
   color: var(--accent-color);
 }
+.header-list,
+.contact {
+  display: block;
+  display: flex;
+}
+
+.header-list li {
+  outline: 1px solid tomato;
+  margin-right: 50px;
+}
+.header-list li:last-child {
+  margin-right: 0px;
+}
+.contact li {
+  outline: 1px solid tomato;
+  margin-right: 50px;
+}
+.contact li:last-child {
+  margin-right: 0px;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  margin-left: 93px;
+  /* margin-right: 331px; */
+}
+.contact {
+  margin-left: auto;
+}
+/* .conteiner-header .item:not(:last-child) {
+   margin-right: 50px;
+} */
+}
+
+/* .header-navigation {
+  padding: 0px;
+  margin: 0px;
+} */
 /*-----------------HEADER-----------------*/
 /*--------------HERO----------------------*/
-
-.title {
+/* .list {
+  display: flex;
+} */
+.title, .title-portfolio {
   display: none;
 }
+.hero {
+  text-align: center;
+}
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  width: 696px;
+
 }
+
 .hero {
   background-color: #2f303a;
 }
@@ -111,6 +163,7 @@ body {
 /*--------------HERO----------------------*/
 /*--------------ABOUT---------------------*/
 .about-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -130,9 +183,25 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
+.list li {
+  margin-right: 30px;
+}
+.list li:last-child {
+  margin-right: 0px;
+}
+/* .container-about .item:last-child {
+  margin-right: 0px;
+}
+.container-main .item:last-child {
+  margin-right: 0px; */
+}
 /*--------------ABOUT---------------------*/
 /*------------------MAIN-------------------*/
+.main {
+  background-color: #f5f4fa;
+}
 .main-title {
+  margin-bottom: 30px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -140,6 +209,7 @@ body {
   color: var(--second-title-color);
 }
 .main-subtitle {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -153,6 +223,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+.container-about-img li {
+  margin-right: 30px;
+}
+.main {
+  background-color: #F5F4FA;
 }
 /*------------------MAIN-------------------*/
 /*--------------------FOOTER----------------------*/
@@ -210,6 +286,13 @@ body {
 /*--------------------FOOTER----------------------*/
 
 /*---------------PORTOFOLIO--------------*/
+.list-btn li{
+  margin-right: 8px;
+}
+/* .list-btn {
+margin-left: auto;
+margin-right: auto;} */
+
 .main-btn {
   font-weight: 500;
   font-size: 16px;
@@ -217,9 +300,20 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-btn-color);
+  border-radius: 4px;
+  min-width: 130px;
+  background-color: #F5F4FA;
+  border: none;
+  /* outline: none; */
+}
+.main-btn:focus,
+.main-btn:hover {
+  color: var(--accent-color);
 }
 
 .hero-subtitle {
+  margin-top: 0px;
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -230,4 +324,117 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+.title-portfolio { 
+  display: none;
+}
+
+/* ------------––––––––––––––––Отступы––––––––––––––––----------- */
+.list,
+.list-adress {
+  padding: 0px;
+  outline: 2px so tomato;
+  /* border: 5px solid blueviolet;
+  padding: 20 px;
+  margin: 20px; */
+}
+
+.hero-button {
+  min-width: 200px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  /* outline: none; */
+}
+.header {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+
+   padding-top: 24px;
+  padding-bottom: 25px;
+}
+/* .container-main-portfolio {
+padding-top: 94px;
+}
+.list-portfolio {
+  margin-top: 50px;
+} */
+
+.container-about {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+.container-about-img {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+.container-main,
+.container-main-portfolio {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+.container-footer {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+/* убрала отступы */
+.contact,
+.about-title2,
+.main-title,
+.list,
+h2,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container-about,
+.container-main-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.container-about-img {
+  padding-bottom: 94px;
+}
+.container-main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.about-title2 {
+  margin-bottom: 50px;
+}
+.main-title {
+  margin-bottom: 50px;
+}
+.list, .list-btn {
+  display: flex;
+}
+.hero-button {
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+.hero-title {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
 }
