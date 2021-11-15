@@ -86,14 +86,14 @@ body {
 }
 
 .header-list li {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   margin-right: 50px;
 }
 .header-list li:last-child {
   margin-right: 0px;
 }
 .contact li {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   margin-right: 50px;
 }
 .contact li:last-child {
@@ -160,8 +160,7 @@ body {
 .hero-button {
   background-color: var(--accent-color);
 }
-/*.hero-button:hover .hero-button:focus {
-}*/
+
 
 .pointer {
   cursor: pointer;
@@ -342,7 +341,7 @@ margin-right: auto;} */
 .list,
 .list-adress {
   padding: 0px;
-  outline: 2px so tomato;
+  /* outline: 2px so tomato; */
   /* border: 5px solid blueviolet;
   padding: 20 px;
   margin: 20px; */
@@ -355,13 +354,12 @@ margin-right: auto;} */
   border-radius: 4px;
   text-align: center;
   border: none;
-  /* outline: none; */
 }
 .container-header {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 
   padding-left: 15px;
   padding-right: 15px;
@@ -379,7 +377,7 @@ padding-top: 94px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -387,7 +385,7 @@ padding-top: 94px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -395,7 +393,7 @@ padding-top: 94px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -405,13 +403,13 @@ padding-top: 94px;
   margin-right: auto;
   /* margin-top: 0px;
   margin-bottom: 0px; */
-  outline: 2px solid tomato;
-}
+  /* outline: 2px solid tomato;
+} */
 .container-footer {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 
   padding-left: 15px;
   padding-right: 15px;
@@ -484,10 +482,13 @@ p {
 }
 .flex-element:nth-last-child(-n +3) {
   margin-bottom: 0px;
+  border: 1px solid #EEEEEE;
 }
 .portfolio-text {
   padding: 20px 24px;
+  border: 1px solid #EEEEEE;
   /* outline: 1px solid #EEEEEE; */
+  
 }
 .items-btn {
   min-width: 611px;
