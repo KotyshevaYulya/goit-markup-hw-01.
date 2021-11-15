@@ -17,14 +17,14 @@
 
 <body> 
     <header class="header">
-        <div class="container-header">
+        <div class="container container-header">
         <nav class="header-navigation">
-            <a class="link" href="./index.html"><span class="header-logo">Web</span><span
+            <a class="link logo" href="./index.html"><span class="header-logo">Web</span><span
                     class="header-logo2">Studio</span></a>
             <ul class="list header-list">
-                <li><a class="link header-link headr-item" href="./index.html">Студия</a></li>
-                <li><a class="link header-link headr-item" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="link header-link headr-item" href="">Контакты</a></li>
+                <li><a class="link header-link" href="./index.html">Студия</a></li>
+                <li><a class="link header-link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="link header-link" href="">Контакты</a></li>
             </ul>
         <ul class="list contact">
             <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -35,14 +35,16 @@
     </header>
  
    <main>
-        <section class="hero" >
+       <section class="hero" >
+            <div class="container container-hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button class="hero-button pointer" type="button">Заказать услугу</button>
+            </div>
         </section>
 
         <!-------------------------- ABOUT-->
-   <section>
-       <div class="container-about">
+   <section class="about">
+       <div class="container  container-about">
      <ul class="list">
         <li>
             <h2 class="about-title">Внимание к деталям</h2>
@@ -64,8 +66,8 @@
       </div>  
    </section>
 
-   <section>
-       <div class="container-about-img">
+   <section class="about-list">
+       <div class="container container-about-img">
      <h2 class="about-title2">Чем мы занимаемся</h2>
      <ul class="list">
          <li><img class="about-img" src="images/typing.jpg" alt="написание кода" width="370"></li>
@@ -77,7 +79,7 @@
     <!------------------------------ ABOUT-->
     <!-- ----------------MAIN----------------- -->
     <section class="main">
-        <div class="container-main">
+        <div class="container container-main">
     <h2 class="main-title">Наша команда</h2>
     <ul class="list">
         <li>
@@ -107,7 +109,7 @@
     <!-- ----------------MAIN----------------- -->
     <!-- -------------------FOOTER---------------------- -->
 <footer class="footer">
-    <div class="container-footer">
+    <div class="container container-footer">
     <a class="link" href=""><span class="footer-logo">Web</span><span class="footer-logo2">Studio</span></a>
     <address><ul class="list-adress">
             <li><a class="footer-address link" href="https://goo.gl/maps/cXe5NP5aKkesT4md6" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
