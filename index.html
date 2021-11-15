@@ -46,19 +46,19 @@
    <section class="about">
        <div class="container  container-about">
      <ul class="list">
-        <li>
+        <li class="about-element">
             <h2 class="about-title">Внимание к деталям</h2>
             <p class="about-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
-        <li>
+        <li class="about-element">
             <h2 class="about-title">Пунктуальность</h2>
             <p class="about-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
-        <li>
+        <li class="about-element">
             <h2 class="about-title">Планирование</h2>
             <p class="about-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-        <li>
+        <li class="about-element">
             <h2 class="about-title">Современные технологии</h2>
             <p class="about-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
@@ -70,9 +70,9 @@
        <div class="container container-about-img">
      <h2 class="about-title2">Чем мы занимаемся</h2>
      <ul class="list">
-         <li><img class="about-img" src="images/typing.jpg" alt="написание кода" width="370"></li>
-          <li><img class="about-img" src="images/notebook.jpg" alt="макет" width="370"></li>
-           <li><img class="about-img" src="images/tablet.jpg" alt="выбор цыета" width="370"></li>
+         <li class="about-img"><img  src="images/typing.jpg" alt="написание кода" width="370"></li>
+          <li class="about-img"><img  src="images/notebook.jpg" alt="макет" width="370"></li>
+           <li class="about-img"><img  src="images/tablet.jpg" alt="выбор цыета" width="370"></li>
      </ul>
     </div>
    </section>
@@ -80,27 +80,35 @@
     <!-- ----------------MAIN----------------- -->
     <section class="main">
         <div class="container container-main">
-    <h2 class="main-title">Наша команда</h2>
-    <ul class="list">
-        <li>
+        <h2 class="main-title">Наша команда</h2>
+        <ul class="list">
+            <li class="main-element">
             <img class="main-img" src="images/ihor.jpg" alt="Игорь дизайнер продукта" width="270">
-            <h2 class="main-subtitle">Игорь Демьяненко</h2>
-            <p class="main-text" lang="en">Product Designer</p>
+            <div class="main-description">
+                <h2 class="main-subtitle">Игорь Демьяненко</h2>
+                <p class="main-text" lang="en">Product Designer</p>
+            </div>
          </li>
-        <li>
+        <li class="main-element">
             <img class="main-img" src="images/olga.jpg" alt="Ольга разработчик" width="270">
+            <div class="main-description">
             <h2 class="main-subtitle">Ольга Репина</h2>
             <p class="main-text" lang="en">Frontend Developer</p>
+            </div>
         </li>
-        <li>
+        <li class="main-element">
             <img class="main-img" src="images/nikolay.jpg" alt="Николай маркетолог" width="270">
+            <div class="main-description">
             <h2 class="main-subtitle">Николай Тарасов</h2>
             <p class="main-text" lang="en">Marketing</p>
+            </div>
         </li>
-        <li>
+        <li class="main-element">
             <img class="main-img" src="images/mikhail.jpg" alt="Михаил дизайнер" width="270">
+            <div class="main-description">
             <h2 class="main-subtitle">Михаил Ермаков</h2>
             <p class="main-text" lang="en">UI Designer</p>
+            </div>
         </li>
     </ul>
     </div>
@@ -110,12 +118,17 @@
     <!-- -------------------FOOTER---------------------- -->
 <footer class="footer">
     <div class="container container-footer">
-    <a class="link" href=""><span class="footer-logo">Web</span><span class="footer-logo2">Studio</span></a>
-    <address><ul class="list-adress">
-            <li><a class="footer-address link" href="https://goo.gl/maps/cXe5NP5aKkesT4md6" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a class="footer-mail link" href="mailto:info@devstudio.com">info @devstudio.com</a></li>
-            <li><a class="footer-tel link" href="tel.:+380961111111">+38 096 111 11 11</a></li>
-    </ul></address>
+        <a href=""><span class="footer-logo">Web</span><span class="footer-logo2">Studio</span></a>
+        <address>
+            <ul class="list-adress">
+                <li class="adress"><a class="footer-address link" href="https://goo.gl/maps/cXe5NP5aKkesT4md6"
+                        target="_blank">г. Киев,
+                        пр-т Леси Украинки, 26</a></li>
+                <li class="adress"><a class="footer-mail link" href="mailto:info@devstudio.com">info @devstudio.com</a>
+                </li>
+                <li class="adress"> <a class="footer-tel link" href="tel.:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
     </div>
 </footer>
 <!-- -------------------FOOTER---------------------- -->
