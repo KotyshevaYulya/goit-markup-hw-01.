@@ -391,9 +391,9 @@ ul {
   letter-spacing: 0.03em;
   color: var(--second-btn-color);
   border-radius: 4px;
-  min-width: 130px;
   background-color: #f5f4fa;
   border: none;
+  padding: 6px 22px
   /* outline: none; */
 }
 .main-btn:focus,
@@ -480,4 +480,5 @@ img {
 }
 .flex-element-link {
   text-decoration: none;
+  display: block
 }
